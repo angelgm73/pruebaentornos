@@ -1,0 +1,157 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(94, 39, 243);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #f7f7f7;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+}
+
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 20px;
+    text-align: justify;
+    padding: 0 15px;
+    transition: transform 0.2s ease;
+}
+
+
+p:hover {
+    transform: scale(1.02);
+}
+
+
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+span {
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+img {
+    border: 5px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    width: 300px;
+    transition: transform 0.3s ease;
+    margin-top: 15px;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+button {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #050303, #f7f7f7);
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    transform-origin: center;
+}
+
+
+button:hover {
+    background: #040505;
+    transform: scale(1.1);
+    box-shadow: 0 0 25px 5px rgba(2, 7, 7, 0.7);
+}
+
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+footer {
+    background: linear-gradient(135deg, #000, #1e1e1e);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s ease;
+}
+
+
+main:hover {
+    transform: scale(1.02);
+}
+
+button {
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #050303;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+button:hover {
+    background-color: #bacece;
+    transform: scale(1.05);
+    color: #050303;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
